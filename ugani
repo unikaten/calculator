@@ -1,0 +1,12 @@
+
+
+secret = 1
+
+operation =int(raw_input("Guess the number 0-15 : "))
+
+
+if operation == secret:
+    print "Cestitam"
+else:
+    print "Napacno"
+
